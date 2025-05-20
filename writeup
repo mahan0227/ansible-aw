@@ -1,0 +1,35 @@
+High-Availability Kubernetes Infrastructure on AWS using Ansible
+
+1. Project Objective
+   To build a DevOps infrastructure capable of running an e-commerce application in a highly available (HA) mode using Kubernetes. This includes provisioning AWS EC2 instances using Ansible, setting up Docker and Kubernetes, implementing autoscaling, and ensuring secure pod-to-pod communication.
+
+2. Tools & Technologies
+
+* AWS EC2
+* Ansible
+* Docker
+* Kubernetes
+* ETCD
+
+3. Implementation Steps
+
+* Provision EC2 instances via Ansible.
+* Install Docker and Kubernetes.
+* Create Kubernetes Role and RoleBinding.
+* Enforce Network Policies.
+* Take ETCD Snapshots.
+* Configure Horizontal Pod Autoscaler.
+
+4. Testing & Results
+
+* All nodes joined and marked Ready.
+* Autoscaling triggered at CPU > 50%.
+
+5. GitHub Repository
+   [https://github.com/raktim00/Kubernetes-Multi-Node-AWS-Ansible](https://github.com/raktim00/Kubernetes-Multi-Node-AWS-Ansible)
+
+6. Conclusion
+
+* Fully automated deployment pipeline
+* Scalable and fault-tolerant architecture
+* Role-based access and secure networking
